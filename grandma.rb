@@ -22,11 +22,11 @@
 #  end
 #end
 
-def speak_to_grandma(phrase)
-  if phrase == "I LOVE YOU GRANMDA!"
-    "I LOVE YOU PUMPKIN!"
-  elsif phrase == phrase.uppercase()
-    "NO, NOT SINCE 1983!"
+def speak_to_grandma(message)
+  if message == "I LOVE YOU GRANDMA!"
+    "I LOVE YOU TOO PUMPKIN!"
+  elsif message == message.upcase
+    "NO, NOT SINCE 1938!"
   else
     "HUH?! SPEAK UP, SONNY!"
   end
